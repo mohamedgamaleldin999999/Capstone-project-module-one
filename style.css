@@ -189,3 +189,102 @@ html {
 .see-program {
   display: none;
 }
+
+.speakers .less-btn i {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.speakers .list .speaker-card .image {
+  background-image: url(../images/checker.png);
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+  padding: 20px 0 0 20px;
+}
+
+.about-footer img {
+  width: 160px;
+  margin-left: 0;
+}
+
+.speakers .list .speaker-card .image img {
+  width: 70px;
+}
+
+.speaker-card {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.speakers .list .speaker-card:not(:first-child):not(:nth-child(2)) {
+  display: none;
+}
+
+.speakers {
+  padding: 10px;
+}
+
+.speakers h4 {
+  color: var(--font-color);
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+.speakers .list .speaker-card .details h4 {
+  font-family: var(--font-family);
+  text-align: left;
+  margin-top: 30px;
+}
+
+.speakers .list .speaker-card .details hr {
+  width: 30px;
+  background-color: var(--primary-color);
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.speakers h3 {
+  font-family: var(--font-family);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.speakers .list .speaker-card .details .description {
+  color: var(--primary-color);
+  font-style: italic;
+  margin-left: 25px;
+  width: 225px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.speakers .list .speaker-card .details p {
+  color: var(--font-color);
+  margin-left: 25px;
+  width: 225px;
+  font-size: 14px;
+}
+
+.more-btn {
+  width: 90%;
+  padding: 10px 30px;
+  border: 1px solid black;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  margin-top: 40px;
+}
+
+.more-btn span {
+  margin-right: 10px;
+  color: var(--font-color);
+  font-size: 13px;
+}
+
+.more-btn i {
+  color: var(--primary-color);
+}
