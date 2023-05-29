@@ -20,7 +20,7 @@ body {
   height: 47px;
   align-items: center;
   padding-bottom: 40px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .menu-btn {
@@ -142,7 +142,7 @@ body {
 
 .line {
   width: 30px;
-  background-color: var(--primary-color);
+  background-color: rgb(212, 30, 91);
   margin-bottom: 40px;
 }
 
@@ -232,32 +232,30 @@ body {
 }
 
 .speakers h4 {
-  color: var(--font-color);
+  color: rgb(212, 30, 91);
   font-weight: 600;
   margin-left: 25px;
 }
 
 .speakers .list .speaker-card .details h4 {
-  font-family: var(--font-family);
   text-align: left;
   margin-top: 30px;
 }
 
 .speakers .list .speaker-card .details hr {
   width: 30px;
-  background-color: var(--primary-color);
+  background-color: rgb(212, 30, 91);
   margin-bottom: 10px;
   margin-left: 25px;
 }
 
 .speakers h3 {
-  font-family: var(--font-family);
   text-align: center;
   margin-top: 30px;
 }
 
 .speakers .list .speaker-card .details .description {
-  color: var(--primary-color);
+  color: rgb(212, 30, 91);
   font-style: italic;
   margin-left: 25px;
   width: 225px;
@@ -266,7 +264,7 @@ body {
 }
 
 .speakers .list .speaker-card .details p {
-  color: var(--font-color);
+  color: rgb(212, 30, 91);
   margin-left: 25px;
   width: 225px;
   font-size: 14px;
@@ -288,10 +286,131 @@ body {
 
 .more-btn span {
   margin-right: 10px;
-  color: var(--font-color);
+  color: rgb(212, 30, 91);
   font-size: 13px;
 }
 
 .more-btn i {
-  color: var(--primary-color);
+  color: rgb(212, 30, 91);
+}
+
+.wrapper {
+  background-image: url(../images/bgmobile.jpeg);
+  background-size: cover;
+}
+
+.top-nav-Desktop {
+  display: none;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro span {
+  color: rgb(212, 30, 91);
+}
+
+.intro h1 {
+  color: rgb(212, 30, 91);
+  font-weight: 800;
+  font-size: 25px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.intro h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.about-intro-p {
+  background-color: white;
+  padding: 15px;
+  width: 85%;
+  border: 1px solid rgb(227, 220, 220);
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.intro-p {
+  background-color: rgba(247, 247, 247, 0.75);
+  padding: 15px;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 338px;
+  padding: 40px 18px;
+  color: blue;
+}
+
+.desk-version {
+  display: none;
+}
+
+.about-welcome {
+  display: flex;
+  justify-content: center;
+}
+
+.about-title {
+  padding-left: 15px;
+  text-align: center;
+}
+
+.about-description {
+  background-color: white !important;
+  text-align: center;
+  box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+  -webkit-box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+  -moz-box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+  padding: 20px !important;
+}
+
+.contact {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.contact-email {
+  font-weight: 900;
+  text-decoration: underline;
+  color: black;
+}
+
+.iu-logo {
+  text-align: center;
+}
+
+.iu-logo h3 {
+  padding: 20px 20px 0 20px;
+  width: 250px;
+  margin: 0 auto;
+  color: rgb(212, 30, 91);
+}
+
+.iu-logo hr {
+  margin-bottom: 10px;
+}
+
+.iu-logo p {
+  width: 350px;
+  margin: 0 auto;
+  color: rgb(212, 30, 91);
+  padding: 20px 20px 20px 20px;
 }
