@@ -13,6 +13,8 @@ html {
   width: 100%;
   height: 47px;
   align-items: center;
+  padding-bottom: 40px;
+  padding-top: 30px;
 }
 
 .menu-btn {
@@ -85,7 +87,8 @@ html {
   width: 100%;
   padding: 10px;
   padding-bottom: 70px;
-  margin-top: 50px;
+  background-image: url(../images/bgmobile.jpeg);
+  background-size: cover;
 }
 
 .main-bg {
@@ -123,4 +126,66 @@ html {
 .main h2 {
   margin-top: 10px;
   font-size: 1.5rem;
+}
+
+.program-container {
+  background-color: #272a31;
+  padding: 8px;
+}
+
+.line {
+  width: 30px;
+  background-color: var(--primary-color);
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #3c3f46;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px 5px 10px 5px;
+}
+
+.card h4 {
+  margin-left: 10px;
+  color: rgb(212, 30, 91);
+  font-weight: bold;
+  margin-right: 10px;
+  width: 140px;
+}
+
+.card p {
+  width: 85%;
+  color: white;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.program-container button {
+  width: 90%;
+  background-color: rgb(212, 30, 91);
+  padding: 25px 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.program-container h1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.see-program {
+  display: none;
 }
