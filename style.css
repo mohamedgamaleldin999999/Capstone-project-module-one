@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,6 +8,10 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
 }
 
 .nav {
@@ -112,6 +118,7 @@ html {
   font-size: 25px;
   margin-top: 7px;
   margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
 }
 
 .scnd-text {
