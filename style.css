@@ -522,3 +522,42 @@ body {
   color: white;
 }
 
+.footer-conatainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: center;
+  min-height: 150px;
+}
+
+.footer-conatainer img {
+  width: 120px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer-conatainer p {
+  color: var(--font-color);
+  font-size: 16px;
+  margin-left: 0;
+  width: auto;
+}
+
+.about-footer img {
+  width: 160px;
+  margin-left: 0;
+}
+
+.about-footer p {
+  padding: 20px;
+  width: auto;
+}
+
+.about-footer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: center;
+  gap: 0;
+}
