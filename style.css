@@ -114,6 +114,8 @@ body {
 
 .main-text {
   font-size: 10px;
+  margin-left: 20px;
+  width: 300px;
 }
 
 .green-text {
@@ -150,6 +152,11 @@ body {
   margin: 20px 0;
 }
 
+.mid {
+  display: flex;
+  justify-content: center;
+}
+
 .card {
   background-color: #3c3f46;
   display: flex;
@@ -176,7 +183,7 @@ body {
   margin-right: 10px;
 }
 
-.program-container button {
+.register {
   width: 90%;
   background-color: rgb(212, 30, 91);
   padding: 25px 20px;
@@ -566,6 +573,34 @@ body {
   gap: 0;
 }
 
+.partners-conatainer-desk {
+  display: none;
+}
+
+.partners-conatainer-desk {
+  display: none;
+}
+
+.footer-home-desk {
+  display: none;
+}
+
+.desk-version {
+  display: none;
+}
+
+.active-red {
+  display: none;
+}
+
+.about-footer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: center;
+  gap: 0;
+}
+
 @media (min-width: 768px) {
   body {
     width: 100%;
@@ -579,38 +614,20 @@ body {
     display: none;
   }
   
-  .x-btn {
-    display: none;
-  }
-  
-  .active-btn {
-    display: none;
-  }
   
   .register {
     display: none;
   }
   
-  .more {
-    display: none;
-  }
-  
-  .home-btn {
-    display: none;
-  }
   
   .mobile-version {
-    display: none;
-  }
-  
-  .partners-conatainer {
     display: none;
   }
   
   .more-btn {
     display: none;
   }
-  
+
   .top-nav-Desktop {
     display: flex;
     flex-direction: row;
@@ -737,6 +754,8 @@ body {
   
   .program-container {
     background-color: #272a31;
+    display: flex;
+    flex-direction: column;
   }
   
   .program-container h1 {
@@ -747,9 +766,9 @@ body {
     padding-top: 40px;
   }
   
-  .line {
+  .program-container .line {
     width: 30px;
-    background-color: var(--primary-color);
+    background-color: tomato;
   }
   
   .cards-div {
@@ -764,6 +783,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 10px 8px 10px 8px;
     width: 400px;
     margin-right: 3px;
@@ -779,14 +799,16 @@ body {
   }
   
   .card h4 {
-    color: var(--primary-color);
+    color: tomato;
     font-weight: bold;
     padding-bottom: 10px;
+    text-align: center;
   }
   
   .card p {
-    color: var(--secondary-color);
+    color: white;
     text-align: center;
+    min-height: 70px;
   }
   
   .see-program {
@@ -795,15 +817,18 @@ body {
     text-align: center;
     text-decoration: underline;
     padding-bottom: 60px;
-    font-family: var(--font-family);
     font-size: 15px;
     display: flex;
     justify-content: center;
   }
   
   .see-program:hover {
-    color: var(--primary-color);
+    color: tomato;
     font-weight: bold;
+  }
+
+  .speakers .list .speaker-card:not(:first-child):not(:nth-child(2)) {
+    display: flex;
   }
   
   .speakers hr {
@@ -1067,6 +1092,9 @@ body {
     color: white;
     padding: 20px;
     width: auto;
+  }
+  .footer-home-desk {
+    display: flex;
   }
   
 }
