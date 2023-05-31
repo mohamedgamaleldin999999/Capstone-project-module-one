@@ -402,6 +402,10 @@ body {
   text-align: center;
 }
 
+.more-btn i {
+  color: rgb(212, 30, 91);
+}
+
 .speakers .less-btn i {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -492,10 +496,6 @@ body {
   margin-right: 10px;
   color: rgb(212, 30, 91);
   font-size: 13px;
-}
-
-.more-btn i {
-  color: rgb(212, 30, 91);
 }
 
 .wrapper {
