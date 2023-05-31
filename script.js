@@ -48,7 +48,7 @@ const initApp = () => {
             "Founder and judge at the first PCC. Plays an important role in Assessing student's roles",
     },
   ];
-  
+
   const speakersWrap = document.querySelector('.speakers .list');
   for (let i = 0; i < speakers.length; i += 1) {
     const speaker = speakers[i];
@@ -68,7 +68,7 @@ const initApp = () => {
       </div>
     `;
   }
-  
+
   const moreBtn = document.querySelector('.more-btn');
   moreBtn.addEventListener('click', () => {
     if (moreBtn.classList.contains('less-btn')) {
@@ -81,7 +81,7 @@ const initApp = () => {
         });
       return;
     }
-  
+
     moreBtn.querySelector('span').textContent = 'LESS';
     moreBtn.classList.add('less-btn');
     document.querySelectorAll('.speakers .list > .speaker-card').forEach((c) => {

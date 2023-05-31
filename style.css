@@ -599,7 +599,7 @@ body {
   body {
     width: 100%;
   }
-  
+
   .hamburger {
     display: none;
   }
@@ -608,16 +608,14 @@ body {
     display: none;
   }
   
-  
   .register {
     display: none;
   }
-  
-  
+
   .mobile-version {
     display: none;
   }
-  
+
   .more-btn {
     display: none;
   }
@@ -637,7 +635,6 @@ body {
   .desktop-head {
     display: block;
   }
-  
 
   .active-red a {
     color: var(--primary-color) !important;
@@ -651,65 +648,65 @@ body {
     width: 100%;
     list-style-type: none;
   }
-  
+
   .top-nav li a,
   i {
     color: white;
     margin-right: 10px;
     text-decoration: none;
   }
-  
+
   .menu-container {
     display: flex;
     align-items: center;
     padding: 0 100px 10px 100px;
     justify-content: space-between;
   }
-  
+
   .menu-nav ul {
     display: flex;
     padding: 20px 0 20px 0;
     justify-content: end;
     list-style-type: none;
   }
-  
+
   .menu-nav ul li a {
     margin-right: 50px;
     color: black;
     text-decoration: none;
     font-weight: bold;
   }
-  
+
   footer img {
     margin-right: 150px;
     margin-left: -400px;
   }
-  
+
   .menu-container img {
     width: 160px;
     height: 60px;
     margin-right: 3px;
   }
-  
+
   .logo {
     display: flex;
     align-items: center;
     font-family: var(--cocogoose);
     color: var(--font-color);
   }
-  
+
   .campaign {
     border: 4px solid tomato;
     padding: 10px;
     color: tomato !important;
   }
-  
+
   .main {
     background: linear-gradient(rgba(249, 249, 249, 0.8), rgba(249, 249, 249, 0.8)), url(../images/iu-why-germany.webp);
     background-size: cover;
     padding: 100px 100px 50px 100px;
   }
-  
+
   .welcome {
     color: var(--primary-color);
     font-size: 2rem;
@@ -719,7 +716,7 @@ body {
   .main-text {
     width: 800px;
   }
-  
+
   .green-text {
     color: tomato;
     font-weight: 1900;
@@ -727,7 +724,7 @@ body {
     margin-bottom: 20px;
     font-size: 78px;
   }
-  
+
   .scnd-text {
     color: black;
     background-color: rgb(218, 213, 213);
@@ -738,24 +735,24 @@ body {
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  
+
   .main h2 {
     color: var(--font-color);
     margin-top: 10px;
   }
-  
+
   .EventLocation {
     color: var(--font-color);
     font-weight: 600;
     margin-bottom: 20px;
   }
-  
+
   .program-container {
     background-color: #272a31;
     display: flex;
     flex-direction: column;
   }
-  
+
   .program-container h1 {
     color: white;
     display: flex;
@@ -763,19 +760,19 @@ body {
     justify-content: center;
     padding-top: 40px;
   }
-  
+
   .program-container .line {
     width: 30px;
     background-color: tomato;
   }
-  
+
   .cards-div {
     display: flex;
     width: 80%;
     justify-content: center;
     margin: 0 auto;
   }
-  
+
   .card {
     background-color: #3c3f46;
     display: flex;
@@ -787,28 +784,28 @@ body {
     margin-right: 3px;
     margin-bottom: 40px;
   }
-  
+
   .card img {
     padding-bottom: 5px;
   }
-  
+
   .card:hover {
     border: 1px solid white;
   }
-  
+
   .card h4 {
     color: tomato;
     font-weight: bold;
     padding-bottom: 10px;
     text-align: center;
   }
-  
+
   .card p {
     color: white;
     text-align: center;
     min-height: 70px;
   }
-  
+
   .see-program {
     text-transform: uppercase;
     color: white;
@@ -819,7 +816,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  
+
   .see-program:hover {
     color: tomato;
     font-weight: bold;
@@ -828,17 +825,17 @@ body {
   .speakers .list .speaker-card:not(:first-child):not(:nth-child(2)) {
     display: flex;
   }
-  
+
   .speakers hr {
     margin-bottom: 30px;
   }
-  
+
   .speakers h3 {
     font-family: var(--font-family);
     text-align: center;
     margin-top: 30px;
   }
-  
+
   .list {
     width: 60%;
     display: grid;
@@ -848,61 +845,61 @@ body {
     align-content: center;
     grid-column-gap: 40px;
   }
-  
+
   .speakers .list .speaker-card .image {
     background-image: url(../images/checker.png);
     background-repeat: no-repeat;
     background-size: 80px 80px;
     padding: 20px 0 0 20px;
   }
-  
+
   .about-footer img {
     padding: 20px;
     margin-left: 0;
   }
-  
+
   .speakers .list .speaker-card .image img {
     min-width: 130px;
     padding: 0;
     padding-right: 20px;
   }
-  
+
   .speakers .list .speaker-card h4 {
     font-family: 'Secular One', sans-serif;
     font-size: 20px;
   }
-  
+
   .speakers .list .speaker-card .description {
     color: #ec5242;
     font-style: italic;
     font-size: 14px;
     font-weight: bold;
   }
-  
+
   .speakers .list .speaker-card {
     display: flex;
     flex-direction: row;
     padding: 20px;
   }
-  
+
   .iu-logo hr {
     margin-bottom: 10px;
   }
-  
+
   .PastEvents hr {
     margin-bottom: 10px;
   }
-  
+
   .speakers .list .speaker-card hr {
     color: #d3d3d3;
     margin: 10px 0;
     width: 20px;
   }
-  
+
   .details {
     min-width: 230px;
   }
-  
+
   .details p {
     color: var(--font-color);
     font-size: 14px;
@@ -911,7 +908,7 @@ body {
   .partners-conatainer {
     display: none;
   }
-  
+
   .partners-conatainer-desk {
     padding: 20px;
     display: block;
@@ -920,30 +917,30 @@ body {
     text-align: center;
     margin-bottom: 0;
   }
-  
+
   .partners-conatainer-desk h3 {
     color: white;
     margin-bottom: 5px;
   }
-  
+
   .Partners-logos {
     padding: 34px;
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
-  
+
   .Partners-logos i {
     color: black;
   }
-  
+
   footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f2f2f2;
   }
-  
+
   .footer-text-desk {
     margin-left: 0;
   }
@@ -959,7 +956,7 @@ body {
     text-align: left;
     width: 700px;
   }
-  
+
   .about-description {
     background-color: white !important;
     text-align: center;
@@ -973,21 +970,21 @@ body {
     line-height: 1.6;
     border: 2px solid rgba(168, 168, 168, 0.315);
   }
-  
+
   .about-welcome {
     display: none;
   }
-  
+
   .about-title {
     margin: 0 auto;
   }
-  
+
   .contact {
     margin-top: 20px;
     text-align: center;
     padding: 20px;
   }
-  
+
   .contact p {
     font-size: 17px;
     color: var(--font-color);
@@ -995,17 +992,17 @@ body {
     margin: 0 auto;
     width: 100% !important;
   }
-  
+
   .contact-email {
     font-weight: 900;
     text-decoration: underline;
     font-size: 14px !important;
   }
-  
+
   .iu-logo {
     text-align: center;
   }
-  
+
   .iu-logo h3 {
     font-family: var(--font-family);
     padding: 20px 20px 0 20px;
@@ -1013,24 +1010,24 @@ body {
     margin-top: 30px;
     color: var(--font-color);
   }
-  
+
   .iu-logo p {
     width: 60%;
     margin: 0 auto;
     color: var(--font-color);
     padding: 20px 20px 20px 20px;
   }
-  
+
   .iu-logo-img {
     border: 2px solid rgba(168, 168, 168, 0.315);
   }
-  
+
   .logo-break {
     background-color: #efefef;
     margin-bottom: 20px;
     opacity: 0.5;
   }
-  
+
   .PastEvents h3 {
     font-family: var(--font-family);
     padding: 5px 20px 0 20px;
@@ -1038,7 +1035,7 @@ body {
     font-size: 1.2rem;
     text-align: center;
   }
-  
+
   .PastEvents .EventsDescription {
     padding: 0 20px 0 20px;
     text-align: center;
@@ -1046,7 +1043,7 @@ body {
     font-size: 14px;
     margin-bottom: 20px;
   }
-  
+
   .Event-alg {
     background-size: cover;
     width: 30%;
@@ -1054,7 +1051,7 @@ body {
     margin: 10px 0 0 10px;
     position: relative;
   }
-  
+
   .Event-mor {
     background-size: cover;
     width: 30%;
@@ -1062,7 +1059,7 @@ body {
     margin: 10px 0 0 10px;
     position: relative;
   }
-  
+
   .event-content h3 {
     font-weight: 900;
     color: white;
@@ -1074,7 +1071,7 @@ body {
     font-size: 2rem;
     transform: translate(-50%, -50%);
   }
-  
+
   .event-content p {
     color: white;
     margin: 0;
@@ -1088,23 +1085,24 @@ body {
     margin-top: 40px;
     width: 90%;
   }
-  
+
   .events-container {
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
   }
-  
+
   .about-footer {
     background-color: rgb(38, 38, 38);
     padding: 20px;
   }
-  
+
   .about-footer p {
     color: white;
     padding: 20px;
     width: auto;
   }
+
   .footer-home-desk {
     display: flex;
   }
