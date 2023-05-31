@@ -124,6 +124,8 @@ If you like this project, subscribe to my [Youtube Channel](https://www.youtube.
 
 I would like to thank my Microverse learning partners: Winner, Marie and Ismail.
 
+I would like to give credits to "Cindy Shin in Behance" for the design idea.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
