@@ -142,7 +142,10 @@ body {
 
 .program-container {
   background-color: #272a31;
-  padding: 8px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  color: #fff;
 }
 
 .line {
@@ -440,7 +443,7 @@ body {
 }
 
 .speakers h4 {
-  color: #ec5242;
+  color: black;
   font-weight: 600;
   margin-left: 25px;
 }
@@ -472,7 +475,7 @@ body {
 }
 
 .speakers .list .speaker-card .details p {
-  color: #ec5242;
+  color: black;
   margin-left: 25px;
   width: 225px;
   font-size: 14px;
