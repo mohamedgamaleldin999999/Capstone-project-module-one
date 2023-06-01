@@ -646,8 +646,7 @@ body {
   .logo {
     display: flex;
     align-items: center;
-    font-family: var(--cocogoose);
-    color: var(--font-color);
+    height: 100px;
   }
 
   .campaign {
