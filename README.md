@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="/images/logo.jpg" alt="logo" width="140"  height="auto" />
+  <img src="tec.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>The PCC event</b></h3>
