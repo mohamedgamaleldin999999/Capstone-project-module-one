@@ -1,0 +1,1079 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.desktop-head {
+  display: none;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  height: 47px;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.menu-btn {
+  padding-right: 40px;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #272a31;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.top-links {
+  position: fixed;
+  left: -100%;
+  top: 40px;
+  gap: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: left;
+  transition: 0.5s;
+  height: 100em;
+  z-index: 999;
+  padding: 0 30px;
+  backdrop-filter: blur(7px);
+}
+
+.top-link {
+  margin: 16px 0;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 44px;
+  color: white;
+}
+
+.top-links.active {
+  left: 0;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 70px;
+  background-image: url(../images/bgmobile.jpeg);
+  background-size: cover;
+}
+
+.main-bg {
+  position: absolute;
+  background: url("images/header-illsutration-mobile.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  z-index: -1;
+}
+
+.main-text {
+  font-size: 10px;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.green-text {
+  color: #ec5242;
+  font-weight: 800;
+  font-size: 25px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.scnd-text {
+  background-color: #d3d3d3;
+  padding: 15px;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+.main h2 {
+  margin-top: 10px;
+  font-size: 2.5rem;
+}
+
+.program-container {
+  background-color: #272a31;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.line {
+  width: 30px;
+  background-color: #ec5242;
+  margin: 20px 0;
+}
+
+.mid {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #3c3f46;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px 5px 10px 5px;
+}
+
+.card h4 {
+  margin-left: 10px;
+  color: #ec5242;
+  font-weight: bold;
+  margin-right: 10px;
+  width: 140px;
+}
+
+.card p {
+  width: 85%;
+  color: white;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.register {
+  width: 90%;
+  background-color: #ec5242;
+  padding: 25px 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.program-container h1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.see-program {
+  display: none;
+}
+
+.intro span {
+  color: #ec5242;
+  padding: 0 20px;
+}
+
+.intro h1 {
+  color: #ec5242;
+  font-weight: 800;
+  font-size: 25px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.intro h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.about-intro-p {
+  background-color: white;
+  padding: 15px;
+  width: 85%;
+  border: 1px solid rgb(227, 220, 220);
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.intro-p {
+  background-color: rgba(247, 247, 247, 0.75);
+  padding: 15px;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 338px;
+  padding: 40px 18px;
+  color: blue;
+}
+
+.desk-version {
+  display: none;
+}
+
+.about-welcome {
+  display: flex;
+  justify-content: center;
+}
+
+.about-title {
+  text-align: center;
+}
+
+.about-description {
+  background-color: white !important;
+  text-align: center;
+  box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+  -webkit-box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+  -moz-box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+  padding: 20px !important;
+}
+
+.contact {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.contact-email {
+  font-weight: 900;
+  text-decoration: underline;
+  color: #272a31;
+}
+
+.iu-logo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iu-logo h3 {
+  padding: 20px 20px 0 20px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.iu-logo hr {
+  margin-bottom: 10px;
+}
+
+.iu-logo p {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+}
+
+.full-line {
+  width: 100%;
+}
+
+.pastEvents {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PastEvents h3 {
+  padding: 5px 20px 0 20px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.PastEvents hr {
+  margin-bottom: 10px;
+  color: #ec5242;
+}
+
+.events-container {
+  margin-bottom: 40px;
+}
+
+.EventsDescription {
+  padding: 0 20px 0 20px;
+  text-align: center;
+  color: #7b7b7b;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.Event-alg {
+  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)), url(../images/konooz.jpg);
+  background-size: cover;
+  width: 93%;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+}
+
+.Event-mor {
+  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)), url(../images/alex.jpg);
+  background-size: cover;
+  width: 93%;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+}
+
+.event-content h3 {
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.event-content p {
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+  width: 90%;
+}
+
+.partners-conatainer {
+  padding: 20px;
+  display: block;
+  background-color: #414246;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.more-btn i {
+  color: #ec5242;
+}
+
+.speakers .less-btn i {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.speakers .list .speaker-card .image {
+  background-image: url(../images/checker.png);
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+  padding: 20px 0 0 20px;
+}
+
+.about-footer img {
+  width: 160px;
+  margin-left: 0;
+}
+
+.speakers .list .speaker-card .image img {
+  width: 70px;
+}
+
+.speaker-card {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.speakers .list .speaker-card:not(:first-child):not(:nth-child(2)) {
+  display: none;
+}
+
+.speakers {
+  padding: 10px;
+}
+
+.speakers h4 {
+  color: black;
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+.speakers .list .speaker-card .details h4 {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.speakers .list .speaker-card .details hr {
+  width: 30px;
+  background-color: #ec5242;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.speakers h3 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.speakers .list .speaker-card .details .description {
+  color: #ec5242;
+  font-style: italic;
+  margin-left: 25px;
+  width: 225px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.speakers .list .speaker-card .details p {
+  color: black;
+  margin-left: 25px;
+  width: 225px;
+  font-size: 14px;
+}
+
+.more-btn {
+  width: 90%;
+  padding: 10px 30px;
+  border: 1px solid #272a31;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  margin-top: 40px;
+}
+
+.more-btn span {
+  margin-right: 10px;
+  color: #ec5242;
+  font-size: 13px;
+}
+
+.wrapper {
+  background-image: url(../images/bgmobile.jpeg);
+  background-size: cover;
+}
+
+.top-nav-Desktop {
+  display: none;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Partners-logos {
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.partners-conatainer h3 {
+  color: white;
+}
+
+.partners-conatainer-desk {
+  display: none;
+}
+
+.footer-home-desk {
+  display: none;
+}
+
+.active-red {
+  display: none;
+}
+
+.about-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 20px;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .register {
+    display: none;
+  }
+
+  .mobile-version {
+    display: none;
+  }
+
+  .more-btn {
+    display: none;
+  }
+
+  .desk-version {
+    display: flex;
+  }
+
+  .top-nav-Desktop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 100px 0 100px;
+    background-color: #272a31;
+  }
+
+  .desktop-head {
+    display: block;
+  }
+
+  .active-red a {
+    color: var(--primary-color) !important;
+  }
+
+  .top-nav {
+    display: flex;
+    padding: 13px;
+    justify-content: flex-end;
+    cursor: pointer;
+    width: 100%;
+    list-style-type: none;
+  }
+
+  .top-nav li a,
+  i {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+
+  .menu-container {
+    display: flex;
+    align-items: center;
+    padding: 0 100px 10px 100px;
+    justify-content: space-between;
+  }
+
+  .menu-nav ul {
+    display: flex;
+    padding: 20px 0 20px 0;
+    justify-content: end;
+    list-style-type: none;
+  }
+
+  .menu-nav ul li a {
+    margin-right: 50px;
+    color: #272a31;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  footer img {
+    margin-right: 150px;
+    margin-left: -400px;
+  }
+
+  .menu-container img {
+    width: 160px;
+    height: 60px;
+    margin-right: 3px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    height: 100px;
+  }
+
+  .campaign {
+    border: 4px solid #ec5242;
+    padding: 10px;
+    color: #ec5242 !important;
+  }
+
+  .main {
+    background: linear-gradient(rgba(249, 249, 249, 0.8), rgba(249, 249, 249, 0.8)), url(../images/iu-why-germany.webp);
+    background-size: cover;
+    padding: 100px 100px 50px 100px;
+  }
+
+  .welcome {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+
+  .main-text {
+    width: 800px;
+  }
+
+  .green-text {
+    color: #ec5242;
+    font-weight: 700;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    font-size: 78px;
+  }
+
+  .scnd-text {
+    color: #272a31;
+    background-color: #d3d3d3;
+    padding: 15px;
+    width: 51%;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .main h2 {
+    margin-top: 10px;
+  }
+
+  .EventLocation {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .program-container {
+    background-color: #272a31;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .program-container h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+  }
+
+  .program-container .line {
+    width: 30px;
+    background-color: #ec5242;
+  }
+
+  .cards-div {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .card {
+    background-color: #3c3f46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 8px 10px 8px;
+    width: 400px;
+    margin-right: 3px;
+    margin-bottom: 40px;
+  }
+
+  .card img {
+    padding-bottom: 5px;
+  }
+
+  .card:hover {
+    border: 1px solid white;
+  }
+
+  .card h4 {
+    color: #ec5242;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .card p {
+    color: white;
+    text-align: center;
+    min-height: 70px;
+  }
+
+  .see-program {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 60px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .see-program:hover {
+    color: #ec5242;
+    font-weight: bold;
+  }
+
+  .speakers hr {
+    margin-bottom: 30px;
+  }
+
+  .speakers h3 {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .list {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    grid-column-gap: 40px;
+  }
+
+  .footer-conatainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    min-height: 150px;
+  }
+
+  .footer-conatainer img {
+    width: 120px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .footer-conatainer p {
+    font-size: 16px;
+    margin-left: 0;
+    width: auto;
+  }
+
+  .speakers .list .speaker-card .image {
+    background-image: url(../images/checker.png);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    padding: 20px 0 0 20px;
+  }
+
+  .about-footer img {
+    padding: 20px;
+    margin-left: 0;
+  }
+
+  .speakers .list .speaker-card .image img {
+    min-width: 130px;
+    padding: 0;
+    padding-right: 20px;
+  }
+
+  .speakers .list .speaker-card h4 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+  }
+
+  .speakers .list .speaker-card .description {
+    color: #ec5242;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .speakers .list .speaker-card {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .speakers .list .speaker-card:not(:first-child):not(:nth-child(2)) {
+    display: flex;
+  }
+
+  .iu-logo hr {
+    margin-bottom: 10px;
+  }
+
+  .PastEvents hr {
+    margin-bottom: 10px;
+  }
+
+  .partners-conatainer-desk hr {
+    border: 1px solid #ec5242;
+  }
+
+  .speakers .list .speaker-card hr {
+    color: #d3d3d3;
+    margin: 10px 0;
+    width: 20px;
+  }
+
+  .details {
+    min-width: 230px;
+  }
+
+  .details p {
+    font-size: 14px;
+  }
+
+  .partners-conatainer {
+    display: none;
+  }
+
+  .partners-conatainer-desk {
+    padding: 20px;
+    display: block;
+    background-color: #414246;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .partners-conatainer-desk h3 {
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .Partners-logos {
+    padding: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .Partners-logos i {
+    color: #7b7b7b;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+  }
+
+  .footer-text-desk {
+    margin-left: 0;
+  }
+
+  .wrapper {
+    background: linear-gradient(rgba(249, 249, 249, 0.8), rgba(249, 249, 249, 0.8)), url(../images/iu-why-germany.webp);
+    background-size: cover;
+    padding: 40px 100px 50px 100px;
+  }
+
+  .intro h1 {
+    font-size: 50px;
+    text-align: left;
+    width: 700px;
+  }
+
+  .about-description {
+    background-color: white !important;
+    text-align: center;
+    box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+    -webkit-box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+    -moz-box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+    padding: 20px !important;
+    width: 80% !important;
+    height: 170px;
+    margin: 0 auto;
+    line-height: 1.6;
+    border: 2px solid rgba(168, 168, 168, 0.315);
+  }
+
+  .about-welcome {
+    display: none;
+  }
+
+  .about-title {
+    margin: 0 auto;
+  }
+
+  .contact {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .contact p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 100% !important;
+  }
+
+  .contact-email {
+    font-weight: 900;
+    text-decoration: underline;
+    font-size: 14px !important;
+  }
+
+  .iu-logo {
+    text-align: center;
+  }
+
+  .iu-logo h3 {
+    padding: 20px 20px 0 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .iu-logo p {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .iu-logo-img {
+    border: 2px solid rgba(168, 168, 168, 0.315);
+  }
+
+  .logo-break {
+    background-color: #efefef;
+    margin-bottom: 20px;
+    opacity: 0.5;
+  }
+
+  .PastEvents h3 {
+    padding: 5px 20px 0 20px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .PastEvents .EventsDescription {
+    padding: 0 20px 0 20px;
+    text-align: center;
+    color: #7b7b7b;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .Event-alg {
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    margin: 10px 0 0 10px;
+    position: relative;
+  }
+
+  .Event-mor {
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    margin: 10px 0 0 10px;
+    position: relative;
+  }
+
+  .event-content h3 {
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+  }
+
+  .event-content p {
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+    width: 90%;
+  }
+
+  .events-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .about-footer {
+    background-color: rgb(38, 38, 38);
+    padding: 20px;
+  }
+
+  .about-footer p {
+    color: white;
+    padding: 20px;
+    width: auto;
+  }
+
+  .footer-home-desk {
+    display: flex;
+  }
+}
