@@ -860,6 +860,10 @@ body {
     margin-bottom: 10px;
   }
 
+  .partners-conatainer-desk hr {
+    border: 1px solid #ec5242;
+  }
+
   .speakers .list .speaker-card hr {
     color: #d3d3d3;
     margin: 10px 0;
@@ -890,10 +894,6 @@ body {
   .partners-conatainer-desk h3 {
     color: white;
     margin-bottom: 5px;
-  }
-
-  .partners-conatainer-desk hr {
-    border: 1px solid #ec5242;
   }
 
   .Partners-logos {
