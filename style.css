@@ -543,7 +543,6 @@ body {
 .about-footer {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
   justify-content: center;
   gap: 0;
   padding: 20px;
