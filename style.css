@@ -43,7 +43,7 @@ body {
   margin: 5px 20px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: black;
+  background-color: #272a31;
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -118,7 +118,7 @@ body {
 }
 
 .green-text {
-  color: rgb(212, 30, 91);
+  color: #ec5242;
   font-weight: 800;
   font-size: 25px;
   margin-top: 7px;
@@ -127,7 +127,7 @@ body {
 }
 
 .scnd-text {
-  background-color: rgba(247, 247, 247, 0.75);
+  background-color: #d3d3d3;
   padding: 15px;
   width: 100%;
   border: 2px solid white;
@@ -147,7 +147,7 @@ body {
 
 .line {
   width: 30px;
-  background-color: rgb(212, 30, 91);
+  background-color: #ec5242;
   margin: 20px 0;
 }
 
@@ -169,7 +169,7 @@ body {
 
 .card h4 {
   margin-left: 10px;
-  color: rgb(212, 30, 91);
+  color: #ec5242;
   font-weight: bold;
   margin-right: 10px;
   width: 140px;
@@ -184,7 +184,7 @@ body {
 
 .register {
   width: 90%;
-  background-color: rgb(212, 30, 91);
+  background-color: #ec5242;
   padding: 25px 20px;
   color: white;
   display: flex;
@@ -208,12 +208,12 @@ body {
 }
 
 .intro span {
-  color: rgb(212, 30, 91);
+  color: #ec5242;
   padding: 0 20px;
 }
 
 .intro h1 {
-  color: rgb(212, 30, 91);
+  color: #ec5242;
   font-weight: 800;
   font-size: 25px;
   margin-top: 7px;
@@ -289,7 +289,7 @@ body {
 .contact-email {
   font-weight: 900;
   text-decoration: underline;
-  color: black;
+  color: #272a31;
 }
 
 .iu-logo {
@@ -334,7 +334,7 @@ body {
 
 .PastEvents hr {
   margin-bottom: 10px;
-  color: tomato;
+  color: #ec5242;
 }
 
 .events-container {
@@ -402,7 +402,7 @@ body {
 }
 
 .more-btn i {
-  color: rgb(212, 30, 91);
+  color: #ec5242;
 }
 
 .speakers .less-btn i {
@@ -440,7 +440,7 @@ body {
 }
 
 .speakers h4 {
-  color: rgb(212, 30, 91);
+  color: #ec5242;
   font-weight: 600;
   margin-left: 25px;
 }
@@ -452,7 +452,7 @@ body {
 
 .speakers .list .speaker-card .details hr {
   width: 30px;
-  background-color: rgb(212, 30, 91);
+  background-color: #ec5242;
   margin-bottom: 10px;
 }
 
@@ -462,7 +462,7 @@ body {
 }
 
 .speakers .list .speaker-card .details .description {
-  color: rgb(212, 30, 91);
+  color: #ec5242;
   font-style: italic;
   margin-left: 25px;
   width: 225px;
@@ -471,7 +471,7 @@ body {
 }
 
 .speakers .list .speaker-card .details p {
-  color: rgb(212, 30, 91);
+  color: #ec5242;
   margin-left: 25px;
   width: 225px;
   font-size: 14px;
@@ -480,7 +480,7 @@ body {
 .more-btn {
   width: 90%;
   padding: 10px 30px;
-  border: 1px solid black;
+  border: 1px solid #272a31;
   display: flex;
   align-items: start;
   justify-content: center;
@@ -493,7 +493,7 @@ body {
 
 .more-btn span {
   margin-right: 10px;
-  color: rgb(212, 30, 91);
+  color: #ec5242;
   font-size: 13px;
 }
 
@@ -582,7 +582,7 @@ body {
     flex-direction: row;
     width: 100%;
     padding: 0 100px 0 100px;
-    background-color: black;
+    background-color: #272a31;
   }
 
   .desktop-head {
@@ -625,7 +625,7 @@ body {
 
   .menu-nav ul li a {
     margin-right: 50px;
-    color: black;
+    color: #272a31;
     text-decoration: none;
     font-weight: bold;
   }
@@ -648,9 +648,9 @@ body {
   }
 
   .campaign {
-    border: 4px solid tomato;
+    border: 4px solid #ec5242;
     padding: 10px;
-    color: tomato !important;
+    color: #ec5242 !important;
   }
 
   .main {
@@ -670,7 +670,7 @@ body {
   }
 
   .green-text {
-    color: tomato;
+    color: #ec5242;
     font-weight: 700;
     margin-top: 7px;
     margin-bottom: 20px;
@@ -678,8 +678,8 @@ body {
   }
 
   .scnd-text {
-    color: black;
-    background-color: rgb(218, 213, 213);
+    color: #272a31;
+    background-color: #d3d3d3;
     padding: 15px;
     width: 51%;
     border: 2px solid white;
@@ -715,7 +715,7 @@ body {
 
   .program-container .line {
     width: 30px;
-    background-color: tomato;
+    background-color: #ec5242;
   }
 
   .cards-div {
@@ -746,7 +746,7 @@ body {
   }
 
   .card h4 {
-    color: tomato;
+    color: #ec5242;
     font-weight: bold;
     padding-bottom: 10px;
     text-align: center;
@@ -770,7 +770,7 @@ body {
   }
 
   .see-program:hover {
-    color: tomato;
+    color: #ec5242;
     font-weight: bold;
   }
 
@@ -897,6 +897,10 @@ body {
     margin-bottom: 5px;
   }
 
+  .partners-conatainer-desk hr {
+    border: 1px solid #ec5242;
+  }
+
   .Partners-logos {
     padding: 34px;
     display: flex;
@@ -905,7 +909,7 @@ body {
   }
 
   .Partners-logos i {
-    color: black;
+    color: #7b7b7b;
   }
 
   footer {
